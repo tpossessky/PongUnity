@@ -1,6 +1,11 @@
 # PongUnity
 Pong clone made in Unity
 
+
+### Screenshot
+![image](https://github.com/user-attachments/assets/e4928f34-5c8e-4d1a-9e47-47c79acad494)
+
+
 Game development has always interested me, and I've had some experience with Godot, Unity, Android, and writing some CLI games from scratch. I wanted to expand upon my knowledge of game development by taking on the "20 game challenge" (https://20_games_challenge.gitlab.io/), the first of which is Pong. I'm more familiar with Unity's 3D workspace, so the game was built in 3D but with an orthographic camera.
 
 ## Architecture
@@ -38,8 +43,5 @@ This class is responsible for handling the running of the game itself. It coordi
 A simple class just as a wrapper for interacting with the UI text on screen and handling tasks such as showing the player's score and when someone wins. 
 
 The only interesting thing here is the fact that the dividing line between the 2 halves of the field is rendered in camera rather than on-top like a UI. I wanted the ball to pass over top of this line and this was the easiest way to accomplish that. 
-
-### Screenshot
-![image](https://github.com/user-attachments/assets/e4928f34-5c8e-4d1a-9e47-47c79acad494)
 
 
